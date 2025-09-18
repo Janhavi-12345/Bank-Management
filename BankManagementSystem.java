@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class BankManagementSystem {
 
     static final String DB_URL = "jdbc:mysql://localhost:3306/BankDB";
-    static final String USER = "root"; // your MySQL username
-    static final String PASS = "root@123"; // your MySQL password
+    static final String USER = ""; // your MySQL username
+    static final String PASS = ""; // your MySQL password
 
     static Connection conn;
     static Scanner sc = new Scanner(System.in);
@@ -195,3 +195,4 @@ private static void showAllUsers() {
 }
 
 }
+
